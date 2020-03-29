@@ -6,6 +6,23 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   }
+  // ,
+  // {
+  //   path: 'home',
+  //   loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  // },
+  // {
+  //   path: 'about',
+  //   loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
+  // },
+  // {
+  //   path: 'contact',
+  //   loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
+  // },
+  // {
+  //   path: 'todo',
+  //   loadChildren: () => import('./todo/todo.module').then( m => m.TodoPageModule)
+  // }
 ];
 @NgModule({
   imports: [
