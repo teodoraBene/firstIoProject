@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>To do</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+
+    <ion-grid>
+        <ion-row>
+            <ion-col *ngFor="let item of [1,1,1,1,1,1,1,1]; let i=index" size=12 size-lg="3" size-md="4" size-sm="6"
+                     size-xs="12">
+                <ion-card>
+                    <ion-card-header>
+                        <ion-img src="/assets/dummy.jpg"></ion-img>
+                    </ion-card-header>
+                    <ion-card-content>
+
+                        <ion-card-title class="ion-text-center">Facts</ion-card-title>
+
+                        <p>Butterflies Live on an All-Liquid Diet</p>
+                        <p>Butterflies Are Nearsighted but Can See Colors</p>
+                        <p>Butterflies Can't Fly If They're Cold</p>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <!--<ion-content>-->
+    <!--    <ion-button color="danger" fill="outline" shape="round">Add to do</ion-button>-->
+    <!--  <ion-fab vertical="top" horizontal="end" slot="fixed">-->
+    <!--    <ion-fab-button>-->
+    <!--      <ion-icon name="add"></ion-icon>-->
+    <!--    </ion-fab-button>-->
+    <!--  </ion-fab>-->
+    <!--    <ion-list>-->
+    <!--        <ion-item *ngFor="let item of [1,1,1,1]; let i=index">-->
+    <!--            <ion-badge slot="start">{{i + 1}}</ion-badge>-->
+    <!--            <ion-label>-->
+    <!--                <h2>Lorem</h2>-->
+    <!--                <p>Lorem Ipsum</p>-->
+    <!--            </ion-label>-->
+    <!--            <ion-badge slot="end" color="danger">-->
+    <!--                <ion-icon name="trash"></ion-icon>-->
+    <!--            </ion-badge>-->
+    <!--        </ion-item>-->
+    <!--    </ion-list>-->
+</ion-content>
